@@ -44,6 +44,7 @@ post-start script
         # *MUST* be available before we emit 'android'.
         while [ -z "$(getprop ro.build.version.sdk)" ]; do sleep 0.1; done
 
+	setprop ro.iorapd.enable false
         LD_PRELOAD= LD_LIBRARY_PATH= lxc-attach -n android -e -- start vendor.hwcomposer-2-4
         while [ "$(getprop init.svc.vendor.hwcomposer-2-4)" != "running"]; do sleep 0.01; done
 
