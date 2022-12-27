@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#init wlan interface on boot
+while [ ! -e /dev/wlan ]; do sleep 0.2; done
+echo ON > /dev/wlan

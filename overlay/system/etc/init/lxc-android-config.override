@@ -4,10 +4,6 @@ start on (cgmanager-ready
    and mounted-android)
 
 pre-start script
-    if [ ! -d /sys/fs/cgroup/systemd ]; then
-        mkdir -p /sys/fs/cgroup/systemd
-        mount -t cgroup cgroup /sys/fs/cgroup/systemd -o name=systemd
-    fi
     umount -l /sys/fs/cgroup/schedtune || true
 
     while ! mountpoint -q -- /vendor
@@ -15,3 +11,4 @@ pre-start script
         sleep 1
     done
 end script
+
