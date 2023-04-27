@@ -1,0 +1,9 @@
+surya:
+  Vendor: Xiaomi
+  PrettyName: Xiaomi Poco X3 NFC
+  DeviceType: phone
+  GridUnit: 21
+  SupportedOrientations:
+    - Portrait
+    - Landscape
+    - InvertedLandscape
