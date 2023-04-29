@@ -9,4 +9,3 @@ karna:
     - InvertedPortrait
     - Landscape
     - InvertedLandscape
-  MirAndroidPlatformServerEglSync: False
