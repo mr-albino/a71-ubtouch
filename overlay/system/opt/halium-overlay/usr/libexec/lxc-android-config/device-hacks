@@ -6,3 +6,5 @@ while [ ! -e /dev/socket/property_service ]; do sleep 0.1; done
 #init wlan interface on boot
 while [ ! -e /dev/wlan ]; do sleep 0.2; done
 echo 1 > /dev/ipa && echo ON > /dev/wlan
+
+systemctl restart hfd-service.service
