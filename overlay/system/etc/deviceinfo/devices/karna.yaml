@@ -10,8 +10,8 @@ karna:
     - Landscape
     - InvertedLandscape
   MirAndroidPlatformClientEglFlush:
-    - "all"
+    - "!/usr/bin/unity8,!/usr/bin/lomiri,all"
   MirAndroidPlatformServerEglSync:
-    - false
+    - true
   MirAndroidPlatformServerPartialUpdates:
     - true
