@@ -9,9 +9,7 @@ surya:
     - InvertedPortrait
     - Landscape
     - InvertedLandscape
-  MirAndroidPlatformClientEglFlush:
-    - "!/usr/bin/unity8,!/usr/bin/lomiri,all"
-  MirAndroidPlatformServerEglSync:
-    - true
-  MirAndroidPlatformServerPartialUpdates:
-    - true
+  MirAndroidPlatformClientFenceSync:
+    - "all"
+  MirAndroidPlatformServerEglSync: False
+  MirAndroidPlatformServerPartialUpdates: True
