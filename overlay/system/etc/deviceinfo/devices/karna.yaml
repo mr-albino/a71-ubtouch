@@ -9,7 +9,5 @@ karna:
     - InvertedPortrait
     - Landscape
     - InvertedLandscape
-  MirAndroidPlatformClientFenceSync:
-    - "all"
   MirAndroidPlatformServerEglSync: False
   MirAndroidPlatformServerPartialUpdates: True
