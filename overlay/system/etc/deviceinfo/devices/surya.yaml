@@ -9,5 +9,3 @@ surya:
     - InvertedPortrait
     - Landscape
     - InvertedLandscape
-  MirAndroidPlatformServerEglSync: False
-  MirAndroidPlatformServerPartialUpdates: True
