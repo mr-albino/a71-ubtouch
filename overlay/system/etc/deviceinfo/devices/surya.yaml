@@ -10,6 +10,6 @@ surya:
     - Landscape
     - InvertedLandscape
   FlashlightSysfsPath:
-    - /sys/class/leds/led:torch_0/brightness
+    - /sys/class/leds/flashlight/brightness
   FlashlightSwitchPath:
-    - /sys/class/leds/led:switch_0/brightness
+    - /sys/class/leds/flashlight/brightness
