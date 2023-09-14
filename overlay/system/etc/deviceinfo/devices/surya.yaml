@@ -10,4 +10,5 @@ surya:
     - /sys/class/leds/flashlight/brightness
   DoubleTapToWake:
     - /sys/touchpanel/double_tap|1|0
-
+  XwaylandShm:
+    - true
