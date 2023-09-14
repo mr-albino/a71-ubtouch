@@ -4,12 +4,10 @@ surya:
   DeviceType: phone
   GridUnit: 21
   PrimaryOrientation: Portrait
-  SupportedOrientations:
-    - Portrait
-    - InvertedPortrait
-    - Landscape
-    - InvertedLandscape
   FlashlightSysfsPath:
     - /sys/class/leds/flashlight/brightness
   FlashlightSwitchPath:
     - /sys/class/leds/flashlight/brightness
+  DoubleTapToWake:
+    - /sys/touchpanel/double_tap|1|0
+
