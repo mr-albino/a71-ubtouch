@@ -11,3 +11,6 @@ echo 1 > /dev/ipa && echo ON > /dev/wlan
 systemctl restart hfd-service.service
 
 
+# Set schedtune boost
+echo 20 > /sys/fs/cgroup/schedtune/schedtune.boost
+echo 1 > /sys/fs/cgroup/schedtune/schedtune.prefer_idle
