@@ -207,7 +207,7 @@ ACTION=="add", KERNEL=="dvb/adapter0/video*", OWNER="media", GROUP="media", MODE
 ACTION=="add", KERNEL=="tsc_mux0", OWNER="media", GROUP="media", MODE="0660"
 ACTION=="add", KERNEL=="tsc_ci0", OWNER="media", GROUP="media", MODE="0660"
 ACTION=="add", KERNEL=="sensors", OWNER="system", GROUP="system", MODE="0660"
-ACTION=="add", KERNEL=="gnss_sirf", OWNER="gps", GROUP="gps", MODE="0660"
+ACTION=="add", KERNEL=="gnss_sirf", OWNER="system", GROUP="gps", MODE="0660"
 ACTION=="add", KERNEL=="vm_bms", OWNER="system", GROUP="system", MODE="0660"
 ACTION=="add", KERNEL=="battery_data", OWNER="system", GROUP="system", MODE="0660"
 ACTION=="add", KERNEL=="wcnss_wlan", OWNER="system", GROUP="system", MODE="0660"
